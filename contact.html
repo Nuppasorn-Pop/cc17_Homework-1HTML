@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+
+  <body>
+    <div>
+      <ol class="head-style">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./education.html">Education</a></li>
+        <li><a href="./work.html">Work Experience</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ol>
+    </div>
+    <hr />
+
+    <h1>Contact Me</h1>
+    <div>
+      <form action="./index.html" method="get">
+        <fieldset>
+          <legend>User Information</legend>
+          <p>Enter your Information...</p>
+          <label>
+            <p style="margin-bottom: 0px">Your name</p>
+            <input type="text" name="fullname" />
+          </label>
+          <label>
+            <p style="margin-bottom: 0px">Your E-mail</p>
+            <input type="text" name="E-mail" />
+          </label>
+          <br /><br />
+          <label
+            >Gender
+            <br />
+            <select id="gender" name="gender">
+              <option value="select">select...</option>
+              <option value="male">male</option>
+              <option value="female">Female</option>
+            </select>
+          </label>
+          <br />
+          <label>
+            <p style="margin-bottom: 0px">Massage</p>
+            <textarea class="stylesheet"></textarea>
+          </label>
+          <br /><br />
+
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
